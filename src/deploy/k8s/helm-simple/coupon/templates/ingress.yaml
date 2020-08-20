@@ -1,0 +1,17 @@
+kind: Ingress
+apiVersion: extensions/v1beta1
+metadata:
+  name: coupon
+  labels:
+    app: eshop
+    service: coupon
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+    - http:
+        paths:
+        - path: /coupon-api
+          backend: 
+            serviceName: coupon-api
+            servicePort: 80

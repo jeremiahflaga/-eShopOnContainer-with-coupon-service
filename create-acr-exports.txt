@@ -1,0 +1,8 @@
+export ESHOP_SUBS=
+export ESHOP_RG=eshop-learn-rg
+export ESHOP_LOCATION=westus
+export ESHOP_ACRNAME=eshoplearn20200820101135486
+export ESHOP_REGISTRY=eshoplearn20200820101135486.azurecr.io
+export ESHOP_ACRUSER=eshoplearn20200820101135486
+export ESHOP_ACRPASSWORD=k3tY5aL6ou1GeQbXfwGom=OYoejdy3mN
+export ESHOP_IDTAG=20200820101135486
